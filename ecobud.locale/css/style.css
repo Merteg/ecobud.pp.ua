@@ -1,0 +1,183 @@
+body { background: 	#FFFFF0 }
+h1, h2, h3, h4, h5, h6, p, li { color: black; }
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 380px;
+}
+.navbar {
+    border: none;
+    background: #2c3e50;
+    border-bottom: solid 3px #00c000;
+}
+.navbar ul { margin: 0}
+.navbar ul > li {  padding-top: 5px }
+.navbar ul > .dropdown a,
+.navbar ul > li p,
+.navbar-brand {
+    color: white!important;
+    font-size: 18px ;
+}
+.navbar ul > li p:hover { color: #00c000!important }
+@media screen and (min-width: 768px) {
+    .navbar-brand { display: none }
+    .navbar ul {
+        width: 100%;
+        padding: 0 5%;
+    }
+    .navbar .nav > li {
+        width: 13%;
+        text-align: center;
+    }
+    .navbar ul > li:last-child { border-right: none }
+    .navbar ul > li { height: 100%; padding-top: 5px }
+    .navbar ul.nav { height: 70px }
+}
+
+.dropdown .dropdown-menu {
+    background-color: #2c3e50;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.first-bl {
+    margin-top: 80px;
+    border-bottom: solid 6px #005500;
+    color: white;
+    padding-bottom: 45px;
+}
+.first-bl .first-title { text-align: left; }
+.first-bl .first-title h1 { font-size: 32px }
+.first-bl .main-title { text-align: center }
+.first-bl .main-title h1 { margin: 10px auto; font-size: 30px }
+.first-bl .main-title h3 { margin: 20px auto }
+.first-bl .logo { text-align: center }
+.first-bl .logo img { width: 100%; height: auto; margin-top: 35px }
+.first-bl .phones { text-align: right }
+.first-bl .phones img { width: 70%; height: auto;  }
+@media screen and (max-width: 768px) {
+    .first-bl .main-title,
+    .first-bl .phones { text-align: center }
+    .first-bl .col-sm-4 { margin-bottom: 20px }
+}
+@media screen and (max-width: 1204px) {
+    .first-bl { margin-top: 100px }
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.second-bl .col-sm-6 {
+    height: 50vh;
+    position: relative;
+}
+.second-bl .left {
+    border-right: solid 2px #005500;
+    background: url("../img/potolok.jpg") no-repeat;
+    background-size: cover;
+}
+.second-bl .right {
+    border-left: solid 2px #005500;
+    text-align: right;
+    background: url("../img/shpakl.jpg") no-repeat;
+    background-size: cover;
+}
+.second-bl .col-sm-6 h1 { color: white;  font: 800 30px Helvetica }
+.second-bl .col-sm-6 ul { height: 25vh;  margin-top: 5vh }
+.second-bl .right ul { text-align: left }
+.second-bl .col-sm-6 ul li {
+    color: white;
+    font-family: Helvetica;
+    font-size: 20px;
+    list-style-type: none;
+    font-style: italic;
+}
+.second-bl .col-sm-6 ul li:before {
+    content: ">";
+    position: relative;
+    left: -10px;
+}
+@media screen and (max-width: 768px) {
+    .second-bl .left {
+        border-right: none;
+        border-bottom: solid 4px #2ecc71;
+        text-align: center;
+    }
+    .second-bl .left ul { text-align: left }
+    .second-bl .right {
+        border-left: none;
+        text-align: center;
+    }
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#third-bl { text-align: center; padding-top: 80px }
+#third-bl p { font: 22px/40px Helvetica }
+#third-bl p span { background-color: #e67e22; padding-left: 5px; padding-right: 5px }
+#third-bl .right { text-align: left }
+#third-bl .right ul { font-size: 20px}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#fourth-bl {text-align: left; padding-top: 100px }
+#fourth-bl h1 {  font-size: 46px; border-bottom: solid 3px #2ecc71 }
+#fourth-bl .left p { font: 22px/34px Helvetica }
+#fourth-bl .right img {
+    width: 100%;
+    height: auto;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#five-bl {text-align: right; padding-top: 100px }
+#five-bl h1 { font-size: 46px;  border-bottom: solid 3px #2ecc71 }
+#five-bl .left { float: left }
+#five-bl .right { float: right }
+#five-bl .right p { font: 22px/30px Helvetica }
+#five-bl .left img {
+    width: 100%;
+    height: auto;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.six-bl { text-align: center; padding-top: 80px }
+.six-bl h1 { font-size: 46px;  border-bottom: solid 3px #2ecc71; margin-bottom: 45px }
+.six-bl .img-wrap { text-align: center }
+.six-bl img { width: 80%; }
+.six-bl p { margin-top: 50px; font-size: 24px }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#form { text-align: center; padding-top: 60px; margin-bottom: 40px }
+#form .right { width: 49%; float: right}
+#form .left { width: 49%; float: left }
+#form .big-text { height: 250px; width: 80% }
+#form ul li { font-size: 20px }
+#form .phone:before {
+    margin-right: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    content: "1";
+    background-color: #2ecc71;
+    border-radius: 8px;
+}
+#form .form:before {
+    margin-right: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    content: "2";
+    background-color: #2ecc71;
+    border-radius: 8px;
+}
+#form .btn {
+    background-color: #2ecc71;
+    border-radius: 0;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+
